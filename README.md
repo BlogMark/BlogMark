@@ -3,6 +3,8 @@
 | A hosted version of BlogMark is coming soon. Stay posted :eyes:!
 | ---
 
+### Edit your blog - right from your code editor!
+
 ## Usage
 
 1. Make markdown files in the `blog` folder
