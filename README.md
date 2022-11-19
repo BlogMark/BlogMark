@@ -7,11 +7,12 @@
 
 ## Coming Soon
 
-* Code Highlighting
-* Accounts
-* Hosted version (cloud)
-* Timestamp
-* Meta tags
+- [ ] Code Highlighting
+- [ ] Accounts
+- [ ] Hosted version (cloud)
+- [ ] Timestamp
+- [x] Sort by timestamp
+- [ ] Meta tags
 
 Have a feature request? Make an issue!
 
