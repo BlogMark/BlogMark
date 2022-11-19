@@ -10,6 +10,7 @@
 * Code Highlighting
 * Accounts
 * Hosted version (cloud)
+* Timestamp
 
 Have a feature request? Make an issue!
 
