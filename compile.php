@@ -60,7 +60,7 @@ foreach (scan_dir('blog') as $file) {
         $dom = new DOMDocument();
         $dom->loadHTML($html);
         $title = $dom->getElementsByTagName('h1')['0']->nodeValue;
-        $html = generateFromTemplate($html, $title);
+        $html = generateFromTemplate($html, htmlspecialchars($title));
 
         file_put_contents('result/' . str_replace('.md', '.html', $file), $html);
         $pages[str_replace('.md', '.html', $file)] = $title;

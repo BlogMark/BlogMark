@@ -12,7 +12,7 @@
 - [ ] Hosted version (cloud)
 - [ ] Timestamp
 - [x] Sort by timestamp
-- [ ] Meta tags
+- [x] Meta tags
 
 Have a feature request? Make an issue!
 
