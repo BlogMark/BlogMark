@@ -37,8 +37,22 @@ if (is_dir('result')) {
 mkdir('result');
 
 $pages = [];
+function scan_dir($dir) {
+    #https://stackoverflow.com/a/11923516
+    $ignored = array('.', '..', '.svn', '.htaccess');
 
-foreach (scandir('blog') as $file) {
+    $files = array();    
+    foreach (scandir($dir) as $file) {
+        if (in_array($file, $ignored)) continue;
+        $files[$file] = filemtime($dir . '/' . $file);
+    }
+
+    arsort($files);
+    $files = array_keys($files);
+
+    return ($files) ? $files : false;
+}
+foreach (scan_dir('blog') as $file) {
     if (endsWith($file, '.md')) {
         $fc = file_get_contents("blog/$file");
         $Parsedown = new Parsedown();
