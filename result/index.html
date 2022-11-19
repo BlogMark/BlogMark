@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>{{TITLE}}</title>
+    <title>Home</title>
     <style>
         * {
             font-family: system-ui, sans-serif;
             box-sizing: border-box;
         }
+
         body {
             background: #2F2F2F;
         }
+
         .post {
             background: #F5F5F5;
             max-width: 750px;
@@ -20,6 +23,7 @@
             display: block;
             text-decoration: none;
         }
+
         nav {
             background: #F5F5F5;
             max-width: 750px;
@@ -27,6 +31,7 @@
             margin: 25px auto;
             border-radius: 5px;
         }
+
         .copyright {
             background: #F5F5F5;
             max-width: 750px;
@@ -34,19 +39,27 @@
             margin: 25px auto;
             border-radius: 5px;
         }
-        a, a:visited {
+
+        a,
+        a:visited {
             color: black;
         }
+
         nav a {
             font-weight: bold;
         }
+
     </style>
 </head>
+
 <body>
     <nav>
-        <a href="./">{{BLOGNAME}}</a>
+        <a href="./">BlogMark Demo</a>
     </nav>
-    <div class="content">{{CONTENT}}</div>
-    <p class="copyright">{{COPYRIGHT}}</p>
+    <div class="content"><a class="post" href="test.html">
+            <h2>Testing BlogMark</h2>
+        </a></div>
+    <p class="copyright">&copy; 2022 BlogMark. All rights reserved</p>
 </body>
+
 </html>

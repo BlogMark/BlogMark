@@ -56,7 +56,7 @@ foreach (scandir('blog') as $file) {
 $indexhtml = '';
 
 foreach ($pages as $page => $title) {
-    $indexhtml .= '<a class="post" href="' . htmlspecialchars($page) . '">' . htmlspecialchars($title) . '</a>';
+    $indexhtml .= '<a class="post" href="' . htmlspecialchars($page) . '"><h2>' . htmlspecialchars($title) . '</h2> </a>';
 }
 
 file_put_contents('result/index.html', generateFromTemplateHP($indexhtml, 'Home'));
