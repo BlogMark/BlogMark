@@ -5,6 +5,8 @@
 
 ### Edit your blog - right from your code editor!
 
+### Great for blogs, documentation, and more!
+
 ## Coming Soon
 
 - [ ] Code Highlighting
