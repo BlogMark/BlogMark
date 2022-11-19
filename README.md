@@ -5,6 +5,14 @@
 
 ### Edit your blog - right from your code editor!
 
+## Coming Soon
+
+* Code Highlighting
+* Accounts
+* Hosted version (cloud)
+
+Have a feature request? Make an issue!
+
 ## Usage
 
 1. Make markdown files in the `blog` folder
