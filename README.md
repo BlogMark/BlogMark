@@ -15,6 +15,7 @@
 - [ ] Timestamp
 - [x] Sort by timestamp
 - [x] Meta tags
+- [x] Make print friendly - Already print friendly!
 
 Have a feature request? Make an issue!
 
