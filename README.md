@@ -1,5 +1,8 @@
 # BlogMark
 
+| A hosted version of BlogMark is coming soon. Stay posted :eyes:!
+| ---
+
 ## Usage
 
 1. Make markdown files in the `blog` folder
