@@ -11,6 +11,7 @@
 * Accounts
 * Hosted version (cloud)
 * Timestamp
+* Meta tags
 
 Have a feature request? Make an issue!
 
